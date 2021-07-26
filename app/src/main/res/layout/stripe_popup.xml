@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:stripe="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top">
+
+    <com.stripe.android.view.CardMultilineWidget
+        android:id="@+id/card_input_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_20dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        stripe:cardTextErrorColor="@android:color/holo_orange_dark"
+        stripe:cardTint="@android:color/holo_purple" />
+
+
+    <CheckBox
+        android:id="@+id/termcondition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_weight="0.1"
+        app:layout_constraintEnd_toStartOf="@+id/termsLink"
+        app:layout_constraintStart_toStartOf="@+id/card_input_widget"
+        app:layout_constraintTop_toBottomOf="@+id/card_input_widget" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/termsLink"
+        app:layout_constraintHorizontal_weight="0.9"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="@+id/card_input_widget"
+        app:layout_constraintStart_toEndOf="@+id/termcondition"
+        android:text="@string/termcondtion"
+        android:textColor="@color/linkBlue"
+        android:fontFamily="@font/celias_bold"
+        app:layout_constraintTop_toBottomOf="@+id/termcondition"
+        app:layout_constraintBottom_toTopOf="@+id/termcondition"
+        />
+
+    <CheckBox
+        android:id="@+id/deliveryInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_weight="0.1"
+        app:layout_constraintEnd_toStartOf="@+id/deliveryInfoLink"
+        app:layout_constraintStart_toStartOf="@+id/card_input_widget"
+        app:layout_constraintTop_toBottomOf="@+id/termcondition" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/deliveryInfoLink"
+        app:layout_constraintHorizontal_weight="0.9"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="@+id/card_input_widget"
+        app:layout_constraintStart_toEndOf="@+id/deliveryInfo"
+        android:text="@string/deliInfo"
+        android:textColor="@color/linkBlue"
+        android:fontFamily="@font/celias_bold"
+        app:layout_constraintTop_toTopOf="@+id/deliveryInfo"
+        app:layout_constraintBottom_toBottomOf="@+id/deliveryInfo"
+
+        />
+
+
+    <TextView
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:background="@color/secondory_color"
+        android:fontFamily="@font/celias_bold"
+        android:gravity="center"
+        android:text="@string/payWithStripe"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deliveryInfo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

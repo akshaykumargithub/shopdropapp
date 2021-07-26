@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/home_bottom"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+ <!--   <item
+        android:id="@+id/action_category"
+        android:enabled="true"
+        android:icon="@drawable/category_bottom"
+        android:title="Category"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/my_cart"
+        android:title="@string/cart"
+        android:icon="@drawable/cart_bottom"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/my_wishlist"
+        android:enabled="true"
+        android:icon="@drawable/wishlike"
+        android:title="@string/wishlist"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/my_account"
+        android:enabled="true"
+        android:icon="@drawable/account_bottom"
+        android:title="@string/acc"
+        app:showAsAction="ifRoom" />
+</menu>

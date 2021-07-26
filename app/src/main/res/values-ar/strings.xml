@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_location_data_provided">لم يتم تزويدنا بالموقع</string>
+    <string name="set_as_delivery_location">تعيين كموقع للتوصيل</string>
+    <string name="your_location">موقعك</string>
+    <string-array name="gender">
+        <item>الرجاء أختيار الجنس</item>
+        <item>ذكر</item>
+        <item>انثى</item>
+        <item>غير معروف</item>
+    </string-array>
+    <string name="hello_world">مرحبا!</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="action_search">بحث</string>
+    <string name="action_notification">تنبيهات</string>
+    <string name="drawer_open">تم فتح القائمة المنزلقة</string>
+    <string name="drawer_close">تم أغلاق القائمة المنزلقة</string>
+
+    <string-array name="nav_drawer_items">
+        <item>الرئسية</item>
+        <item>الفئات</item>
+        <item>الحساب التعريفي</item>
+        <item>العناوين</item>
+        <item>طلباتي</item>
+        <item>قائمة الامنيات</item>
+        <item>My Downloads</item>
+        <item>اللغة</item>
+        <item>مزيد..</item>
+        <item>اتصل بنا</item>
+
+    </string-array>
+
+    <string name="addtocart">أضافة للسلة</string>
+    <string name="MyWishList">قائمة الامنيات</string>
+    <string name="Company">مزيد..</string>
+    <string name="Home">الرئيسية</string>
+    <string name="Category">الفئات</string>
+    <string name="Profile">الحساب التعريفي</string>
+    <string name="AddressBook">العناوين</string>
+    <string name="MyOrders">طلباتي</string>
+    <string name="MyStores">اللغة</string>
+    <string name="ContactUs">اتصل بنا</string>
+    <string name="MyDownloads">التنزيلات الخاصة بي</string>
+    <string name="title_activity_product_listing">قائمة المنتجات</string>
+    <string name="title_activity_product_view_page">صفحة عرض المنتج</string>
+    <string name="title_activity_product_view_fagment">ProductViewFagment</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_show_image">ShowImage</string>
+    <string name="title_activity_wish_listing">WishListing</string>
+    <string name="title_activity_cart_listing">CartListing</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="SignIn">الدخول</string>
+    <string name="action_cart">السلة</string>
+    <string name="cmspage">CMS pages</string>
+    <string name="title_activity_sub_category_listing">SubCategoryListing</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="Username">اسم المستخدم</string>
+    <string name="Password">الباسورد</string>
+    <string name="ForgotPassword">نسيت الباسورد?</string>
+    <string name="Registration">سجل هنا</string>
+    <string name="Register">التسجيل</string>
+    <string name="Required">*:مطلوب</string>
+    <string name="FirstName">الاسم الاول*</string>
+    <string name="Email">الايميل*</string>
+    <string name="Write_a_Review">اكتب مراجعة</string>
+    <string name="howdoyourate">كيف تقيم هذا المنتج ?</string>
+    <string name="Pass">الباسورد*</string>
+    <string name="allcategories">كل الفئات</string>
+    <string name="ConfirmPassword">تاكيد الباسورد*</string>
+    <string name="reg">تسجيل</string>
+    <string name="LastName">اسم العائلة*</string>
+    <string name="SignOut">الخروج</string>
+    <string name="Send">ارسل</string>
+    <string name="CreateAccount">إنشاء حساب</string>
+    <string name="update">تحديث</string>
+    <string name="MyAddresses">عناويني</string>
+    <string name="AddAddress">اضافة عنوان</string>
+    <string name="Pincode">الرمز البريدي*</string>
+    <string name="Address">العنوان</string>
+    <string name="Street">الشارع*</string>
+    <string name="City">المدينة*</string>
+    <string name="State">المقاطعة*</string>
+    <string name="Country">الدولة*</string>
+    <string name="Save">حفظ</string>
+    <string name="PhoneNumber">رقم التلفون*</string>
+    <string name="MyOrder">طلباتي</string>
+    <string name="AddAddressOutput">لم تقم باضافة عنوان لقائمة عناوينك</string>
+    <string name="Noordderplaced">لم تقم باي طلب</string>
+    <string name="profile">الحساب التعريفي</string>
+    <string name="btn_logout_from_google">خروج من جوجل</string>
+    <string name="btn_revoke_access">إبطال الدخول</string>
+    <string name="AddReview">أكتب مراجعة</string>
+    <string name="GeneratePass">إنشاء كلمة المرور الجديدة الخاصة بك</string>
+    <string name="title_activity_testingtabs">Testingtabs</string>
+    <string name="title_activity_my_downloadable_products">MyDownloadableProducts</string>
+    <string name="title_activity_product_description">ProductDescription</string>
+    <string name="title_activity_load_webdescription">LoadWebdescription</string>
+    <!-- <string name="base_url">https://207.246.97.160/</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabsact">Tabsact</string>
+    <string name="confirm_first">هل أنت متأكد أنك تريد حذف هذا ?</string>
+    <string name="confirm_alldelete">هل أنت متأكد أنك تريد حذف جميع العناصر الموجودة في سلة التسوق ?</string>
+    <string name="confirm_allwishdelete">هل أنت متأكد أنك تريد حذف جميع العناصر الموجودة في قائمة الرغبات ? <br /> يمكنك أيضًا حذف عنصر واحد فقط عن طريق التمرير إلى اليسار لهذا العنصر.</string>
+    <string name="yes">نعم</string>
+    <string name="cancel">الغائ</string>
+    <string name="qty">العدد : </string>
+    <string name="price">السعر :</string>
+    <string name="subtotal"> الاجمالي : </string>
+    <string name="title_activity_maps">الخريطة</string>
+    <string name="shareurl">http://viewShareProduct.com/</string>
+    <string name="networkissue">الرجاء المحاولة بعد قليل</string>
+    <string name="url_not_found">الرجاء المحاولة بعد قليل</string>
+    <string name="lownetwork">سرعة النت ضعيفة</string>
+    <string name="title_activity_no_module">NoModule</string>
+    <string name="Checkout_Address">Checkout_Address</string>
+    <string name="Action">Action</string>
+    <string name="empty">الرجاء ادخال قيمة</string>
+    <string name="downloadableproductsincart">يرجى تسجيل الدخول / التسجيل أولاً لأن لديك منتجات قابلة للتنزيل في سلة التسوق الخاصة بك</string>
+    <string name="itemcounttext">منتجات في سلة التسوق</string>
+    <string name="suntotal">المجموع:</string>
+    <string name="shippingamount">مجموع الشحنt:</string>
+    <string name="ProceedTocheckout">انهاء الطلب</string>
+    <string name="YourOrderHasBeenPlacedSuccessfully">تم تقديم طلبك بنجاح</string>
+    <string name="continueshopping"><![CDATA[الاستمرار بالتسوق ]]></string>
+    <string name="orderquantity">الكمية المطلوبة :</string>
+    <string name="Proceed_as_Guest">الانهاء كضيف</string>
+    <string name="Proceed_as_User">الانهاء كمستخدم</string>
+    <string name="Email_Hint">ادخل ايميلك هنا..</string>
+    <string name="Login_as_User">الدخول كمستخدم</string>
+    <string name="select_payment_method">اختيار طريقة الدفع</string>
+    <string name="select_method_for_shipping">اختيار طريقة الشحن</string>
+    <string name="continuee">استمرار</string>
+    <string name="Choose_Address_from_addressbook">اختر عنوان من قائمة عناوينك</string>
+    <string name="Price">السعر</string>
+    <string name="filter">فلترة</string>
+    <string name="ForgotPass">انشاء كلمة سر جديدة</string>
+    <string name="Viewall">مشاهدة الجميع</string>
+    <string name="shipto">شحن الى</string>
+    <string name="orderid">رقم الطلب:</string>
+    <string name="cost">التكلفة :</string>
+    <string name="Amount">الكمية : </string>
+    <string name="orderdate">تاريخ الطلب</string>
+    <string name="Shipping_Address">عنوان الشحن</string>
+    <string name="shippingmethod">طريقة الشحن:</string>
+    <string name="paymentmethod">طريقة الدفع:</string>
+    <string name="subtotalatorder">المجموع الكلي:</string>
+    <string name="taxprice">سعر الضريبة :</string>
+    <string name="shipping">شحن :</string>
+    <string name="discount">تخفيض :</string>
+    <string name="grandtotal">المجموع:</string>
+    <string name="clearfilter">مسح الفلترة</string>
+    <string name="New_Price">السعر الجديد :</string>
+    <string name="STOCK">المخزون :</string>
+    <string name="Quantity">الكمية: </string>
+    <string name="Description">الوصف</string>
+    <string name="Details">التفصيل</string>
+    <string name="ATC">اضافة للسلة</string>
+    <string name="New_Password">باسورد جديد</string>
+    <string name="Confirm_Password">تاكيد الباسورد</string>
+    <string name="ShowPass">مشاهدة الباسورد</string>
+    <string name="sortby">ترتيب حسب</string>
+    <string name="sortbycat">الفئة</string>
+    <string name="Featured_Products">منتجات مميزة</string>
+    <string name="areyousure">هل أنت متأكد أنك تريد حذف هذا??</string>
+    <string name="MostViewed_Products">الاكثر مشاهدة</string>
+    <string name="BestSellers">الافضل مبيعا</string>
+    <string name="New_Arrivals">جديدنا</string>
+    <string name="PLACE_ORDER">ضع طلبك</string>
+    <string name="invalidemail">ايميل خاطئ</string>
+    <string name="succesfullLogin">دخول ناجح</string>
+    <string name="invalidLogin">معلومات دخول خاطئة</string>
+    <string name="adding">اضافة...</string>
+    <string name="minimum_8_character">الحد الأدنى المطلوب 8 أحرف</string>
+    <string name="confirmnotmatch">تأكيد كلمة المرور وكلمة المرور غير متطابقين</string>
+    <string name="SearchYourProducts">البحث عن المنتجات</string>
+    <string name="your_order_id">رقم الطلب هو</string>
+    <string name="orderplacesuccess">تم تقديم طلبك بنجاح</string>
+    <string name="pleaseTryagain">الرجاء المحاولة مرة اخرى</string>
+    <string name="title_activity_un_authourized_request_error">UnAuthourizedRequestError</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="title_activity_no_internetconnection">NoInternetconnection</string>
+    <string name="enteremail">الرجاء ادخال ايميلك</string>
+    <string name="submit">تقديم</string>
+    <string name="loginfirst">الرجاء تسجيل الدخول أولا لعرض هذا القسم</string>
+    <string name="loginfirsttocompare">الرجاء تسجيل الدخول أولا لمقارنة منتجاتك</string>
+    <string name="itemtodownload">Items To Download</string>
+    <string name="youhave">لديك</string>
+    <string name="inwishlist">بقائمة الامنيات</string>
+    <string name="loginfirsttoaddwish">الرجاء تسجيل الدخول أولاً لإضافة هذا العنصر إلى قائمة الرغبات</string>
+    <string name="addtowishlist"> قائمة الامنيات</string>
+    <string name="review">المراجعات</string>
+    <string name="offer">عرض</string>
+    <string name="percent">% خصم</string>
+    <string name="shareproduct">مشاركة المنتج</string>
+    <string name="similar">منتجات مشابهة</string>
+    <string name="options">اختر خيارات</string>
+    <string name="nooption">لا يوجد خيارات متاحة!</string>
+    <string name="samples">Samples</string>
+    <string name="pleasechoose">الرجاء اختيار الخيارات اولا</string>
+
+
+    <string name="value">القيمة</string>
+    <string name="letusknow">مارأيك؟</string>
+    <string name="summaryofreview">ملخص مراجعتك</string>
+    <string name="nickname">ماهو أسم الشهرة الخاص بك?</string>
+    <string name="couponcode">رمز القسيمة الخاص بك</string>
+    <string name="apply">تقديم</string>
+    <string name="selectyourlogin">أختر تسجيلك هنا</string>
+    <string name="wishlistitems">قائمة الامنيات</string>
+    <string name="continueasguest">الاستمرار كضيف</string>
+    <string name="continueasuser">الاستمرار كمستخدم</string>
+    <string name="taptoselect">النقر لاختيار الدولة</string>
+    <string name="date">التاريخ :</string>
+    <string name="tittle">العنوان :</string>
+    <string name="linktittle">عنوان الارتباط :</string>
+    <string name="status">الحالة :</string>
+    <string name="remainingdoenload">التنزيلات المتبقية :</string>
+    <string name="clickhere">إضغط هنا للتحميل</string>
+    <string name="applyfilter">تطبيق الفلترة</string>
+    <string name="enteremailtogenerate">أدخل معرف البريد الإلكتروني المسجل الخاص بك لإنشاء كلمة مرور جديدة</string>
+    <string name="refresh">تحديث</string>
+    <string name="from">من:</string>
+    <string name="to">الى:</string>
+    <string name="links">الروابط:</string>
+    <string name="oldpass">الباسورد القديم</string>
+    <string name="alreadyhave"><u>هل لديك حساب؟ تسجيل الدخول من هنا</u></string>
+    <string name="by">من قبل</string>
+    <string name="allSubcat">كل الفئات الفرعية</string>
+    <string name="title_activity_store_view">عرض المتجر</string>
+    <string name="startingfrom">أبتداء من :</string>
+    <string name="aslowas">منخفض الى :</string>
+    <string name="removecoupon">مسح القسيمة</string>
+    <string name="registercanreview">يمكن للمستخدمين المسجلين فقط كتابة مراجعات. الرجاء تسجيل الدخول أو التسجيل</string>
+    <string name="NoProductFound">لم يتم ايجاد منتجات</string>
+    <string name="BestSellingProducts">الافضل مبيعا</string>
+    <string name="Mostviewed">الاكثر مشاهدة</string>
+    <string name="NewArrivals">جديدنا</string>
+    <string name="FeaturedProducts">منتجات مميزة</string>
+    <string name="Quality">الجودة</string>
+    <string name="title_activity_mage_native_maps">الخريطة</string>
+    <string name="title_activity_ads_for_cedcommerce">AdsForCedcommerce</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8238723280053978/7292270040</string>
+    <string name="specialPrice">سعر جديد :</string>
+    <string name="browse">تصفح</string>
+    <string name="newfrom">من</string>
+    <string name="newto">الى</string>
+    <string name="rating">المراجعة والتقييم</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="HotDeals">صفقات مثيرة</string>
+    <string name="products">المنتجات</string>
+    <string name="NoDealsAvailable">لايوجد صفقات متاحة الان</string>
+    <string name="NoProductsAvailable">عذرا لا توجد منتجات متوفرة في هذا الوقت.</string>
+    <string name="title_activity_new_product_listing">NewProductListing</string>
+    <string name="title_activity_andro__aaka">Andro_Aaka</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">آسف! جهازك لا يدعم إدخال الكلام</string>
+    <string name="tap_on_mic">اضغط على الميكروفون للتحدث</string>
+    <string name="title_activity_voice_recognition">VoiceRecognitionActivity</string>
+    <string name="selectgender">الرجاء اختيار الجنس</string>
+    <string name="logout">الخروج</string>
+    <string name="Login">الدخول</string>
+    <string name="signupwithustext">سجل معنا</string>
+    <string name="Usrname">اسم المستخدم</string>
+    <string name="EditProfile">تعديل الملف التعريفي</string>
+    <string name="title_activity_filteractivity">Filteractivity</string>
+    <string name="Settings">الاعدادات</string>
+    <string name="Vendor_review">تقييم البائعين :</string>
+    <string name="sold_by">تم بيعه بواسطة</string>
+    <string name="slide"><![CDATA[<<--اسحب لليسار للتعديل /الحذف]]></string>
+    <string name="searchvendors">البحث عن البائعين</string>
+    <string name="Countrysearch">البلد</string>
+    <string name="statesearch">المنطقة</string>
+    <string name="zipsearch">الرمز البريدي</string>
+    <string name="vendornamesearch">أيم البائع</string>
+    <string name="company">الشركة </string>
+    <string name="vendorsince">بائع منذ :</string>
+    <string name="citysearch">المدينة</string>
+    <string name="appstoreurl">https://play.google.com/store/apps/details?id=shop.dropapp</string>
+    <string name="Enable_Log">نعم</string>
+    <string name="BuyNow">أشتري الان</string>
+    <string name="shop_cat">تسوق حسب الفئات</string>
+    <string name="Viewdetails"><u>عرض التفاصيل</u></string>
+    <string name="oops">OooPs!!</string>
+    <string name="placedontext">تم وضعه ب</string>
+    <string name="tobepaid">على أن تدفع من قبل</string>
+    <string name="items">العناصر</string>
+    <string name="amounttopay">المبلغ المطلوب دفعه :</string>
+    <string name="shippingcharges">رسوم الشحن :</string>
+    <string name="discounttext">تخفيض :</string>
+    <string name="grandamount">المجموع الكلي :</string>
+    <string name="logintype">الرجاء تحديد نوع تسجيل الدخول</string>
+    <string name="loginattemptcancled">تم إلغاء محاولة تسجيل الدخول.</string>
+    <string name="loginfailed">فشل تسجيل الدخول</string>
+    <string name="specifiedapp">هذا ليس التطبيق المحدد</string>
+    <string name="excitingoffers">عروض مثيرة</string>
+    <string name="featuredproducts">منتجات مميزة</string>
+    <string name="sortbyitems">فرز العناصر حسب </string>
+    <string name="hey">```مهلا! الدفع</string>
+    <string name="on">تشغيل</string>
+    <string name="reviews">المراجعات</string>
+    <string name="ratings">التقيمات</string>
+    <string name="nooptionsavailable">لا يوجد خيار متاح</string>
+    <string name="storage">يسمح لنا إذن التخزين بالوصول إلى البيانات. يرجى السماح في إعدادات التطبيق للحصول على وظائف إضافية.</string>
+    <string name="nosimilarproductfound">لم يتم العثور على منتج مماثل</string>
+    <string name="buynow">اشتري الان</string>
+    <string name="permissiondenied">طلب الاذن مرفوض</string>
+    <string name="totalreviews">مراجعة كاملة:</string>
+    <string name="nofilteravailables">لا يوجد فلترة متاحة</string>
+    <string name="selectwebstore">حدد المتجر :</string>
+    <string name="wishlistitemsin"> العناصر المتاحة بقائمة امنياتك</string>
+    <string name="selectcountry">أختر البلد:</string>
+    <string name="selectstate">أختر المقاطعة:</string>
+    <string name="fillsomevalue">يرجى ملء بعض القيم أو تحديد العنوان أعلاه</string>
+    <string name="somethingbadhappended">حدث شيء سيء يرجى المحاولة بعد بعض الوقت</string>
+    <string name="selectonebillingaddress">الرجاء تحديد عنوان فوترة واحد من فضلك</string>
+    <string name="orderquantitynative">الكمية المطلوبة</string>
+    <string name="nativecontinue">استمرار</string>
+    <string name="placeorder">تقديم الطلب</string>
+    <string name="selectpaymentfirst">الرجاء تحديد طريقة الدفع أولاً</string>
+    <string name="fillsomevaluefirst">الرجاء ملء بعض القيم</string>
+    <string name="selectshippinfmethodfirst">الرجاء تحديد طريقة الشحن أولاً</string>
+    <string name="transactioncanceled">تم إلغاء المعاملة بسبب مشكلة فنية .. حاول مرة أخرى لاحقًا</string>
+    <string name="bethefirstone">كن أول من يراجع</string>
+    <string name="heycheckout">```مهلا! تحقق من الجديد</string>
+    <string name="googleplayservcices">app on google play store ```</string>
+    <string name="invitefriends">دعوة صديق</string>
+    <string name="camerapermission">يسمح لنا إذن الكاميرا بالوصول إلى البيانات. يرجى السماح في إعدادات التطبيق للحصول على وظائف إضافية.</string>
+    <string name="myaccount">حسابي</string>
+    <string name="signup">تسجيل الدخول /التسجيل</string>
+    <string name="noresultfound">لم يتم العثور على نتيجة</string>
+    <string name="billingaddress">عنوان الفوترة</string>
+    <string name="addnewaddress">+أضف عنوان جديد</string>
+    <string name="email">ايميل</string>
+    <string name="firstname">الاسم الاول</string>
+    <string name="lastname">اسم العائلة</string>
+    <string name="streetaddress">عنوان الشارع</string>
+    <string name="city">المدينة</string>
+    <string name="Zipcode">الرمز البريدي</string>
+    <string name="number">رقم الهاتف</string>
+    <string name="country">البلد</string>
+    <string name="state">المقاطعة</string>
+    <string name="taptoselectdata">أضغط لاختيار المقاطعة</string>
+    <string name="paymentmethods">طرق الدفع</string>
+    <string name="revieworder">مراجعة الطلب</string>
+    <string name="shippingmethods">طريقة الشحن</string>
+    <string name="Order">الطلب</string>
+    <string name="order_id">رقم الطلب</string>
+    <string name="amount">القيمة</string>
+    <string name="statusnative">الحالة</string>
+    <string name="coupontext">تم تطبيق رمز القسيمة الخاص بك بنجاح ، وسيتم إعلامك إذا كنت أحد الفائزين المحظوظين.</string>
+    <string name="cantconnet">لا يمكن الاتصال بالخادم. يرجى التحقق من اتصال الشبكة.</string>
+    <string name="outofstock">غير متوفر بالمخزون</string>
+    <string name="share">مشاركة</string>
+    <string name="wishlist">الامنيات</string>
+    <string name="specification">المواصفات</string>
+    <string name="more_info">معلومات أكثر</string>
+    <string name="morereviews">مراجعات المستخدم</string>
+    <string name="upgradenow">تحديث الآن !!</string>
+    <string name="noreviews">لا يوجد تقيم لهذا المنتج.</string>
+    <string name="delete">حذف</string>
+    <string name="noexicitingofferstoshow">لايوجد عروض.</string>
+    <string name="clearcart">مسح سلة التسوق</string>
+    <string name="postedon">نشر على  :</string>
+    <string name="noaddress">يبدو أنه ليس لديك أي عناوين محفوظة</string>
+    <string name="datehash">#تاريخ</string>
+    <string name="select">#اختيار</string>
+    <string name="noshopping">لا يوجد لديك عناصر في سلة التسوق الخاصة بك.</string>
+    <string name="nodownloads">You have no downloadable items</string>
+    <string name="nowishlist">لا يوجد لديك عناصر في قائمة الامنيات</string>
+    <string name="textarea">#TEXTAREA</string>
+    <string name="file">#FILE</string>
+    <string name="nofileselected">No File Selected</string>
+    <string name="allowfiletype">Allowed file type:</string>
+    <string name="png">Png</string>
+    <string name="maxwidth">Maximum Image Width :</string>
+    <string name="maxheight">Maximum Image Height :</string>
+    <string name="scanproducts">Scan Products</string>
+    <string name="visitseller">زيارة البائعين</string>
+    <string name="exclusive">فئات حصرية!!</string>
+    <string name="OR">او</string>
+    <string name="signupforgoogle">التسجيل عن طريق جوجل</string>
+    <string name="signupforfacebook">Sign up with facebook</string>
+    <string name="Mr">ذكر.</string>
+    <string name="mis">انثى.</string>
+    <string name="done">تم</string>
+    <string name="newsletter">الاشتراك في النشرة الإخبارية</string>
+    <string name="noorder">لايوجد لديك طلبات</string>
+    <string name="noproducts">لا توجد منتجات في هذا القسم</string>
+    <string name="nointernet">انقطع الاتصال بالإنترنت!</string>
+    <string name="shipment">الشحنة</string>
+    <string name="skip">تخطى</string>
+    <string name="next">التالي</string>
+    <string name="gotit">مفهوم, هي نبداء</string>
+    <string name="rated">مصنفات</string>
+    <string name="browseby">تصفح ب</string>
+    <string name="callus">اتصل بنا</string>
+    <string name="mailus">ارسل لنا رسالة</string>
+    <string name="aboutvendor">حول البائع</string>
+    <string name="ourproducts">منتجاتنا</string>
+    <string name="time">#Time</string>
+    <string name="clearwishlist">Clear Wishlist</string>
+    <string name="selectsomeprefixvalue">حدد بعض القيم اولا</string>
+    <string name="selectdob">اختر سنة الولادة.</string>
+    <string name="selectsomesuffixvalue">الرجاء تحديد بعض القيم اولا</string>
+    <string name="deliverydata"><![CDATA[We use a variety of carriers to deliver our orders. Royal Mail, Parcel Force and Plus Delivery. Delivery Returns /exchanges policy & cancellation rights If you are not happy with any item you have ordered, you must contact us by emailing info@hairtreat.co.uk or by phone +447921707560. UK returns on any full price and sale items returned to us in perfect condition and original packaging, within 14 days of receipt of order, and proof of purchase. We only refund postage paid if the product is faulty. Photographic evidence must be recorded and submitted to sales@hairtreat.co.uk Please return the item/s to us on the following address: 2 Portal Way, Suite 507, London W3 6RT and we will be able to process your refund once the item/s have been arrived. Items received that are not in perfect condition, or are not deemed faulty, will be returned to you, at your cost. Money will only be refunded once we have received the item. Returns Policy You can return items within 28 days for a refund or replacement. Items have to be unopened, unused and in the original packaging to the return address provided. Return cost will be at buyer’s expense therefore we will refund the purchase price less the postage. Our aim is to please all customers with our carefully selected products and problems rarely occur but if wish to return your purchased item/s, please contact us via info@hairtreat.co.uk stating your reason for return/refund and we will deal with it promptly and effectively. DAMAGED ITEMS All our products have been properly packed before dispatch. If you receive an item that have been damaged we will require photographic evidence which can be sent to our email info@hairtreat.co.uk therefore please do not dispose of the product as we will require this for a claim. A replacement product will then be sent. Alternatively, a full refund will be offered for the purchase price including postage or for minor damage we may be able to agree on a part replacement or partial refund. Please note that a refund can take up to 14 days to be processed back onto your card by your bank.]]></string>
+    <string name="privacydata">HAIR TREAT LTD (\"We\") are committed to protecting and respecting your privacy. This policy (together with our terms of use and any other documents referred to therein) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. For the purpose of the Data Protection Act 1998 (the Act), the data controller is HAIR TREAT LTD of 2 PORTAL WAY, SUITE 507, LONDON, W3 6RT. Information we may collect from you We may collect and process the following data about you: Information that you provide by filling in forms on our site www.hairtreat.co.uk . This includes information provided at the time of registering to use our site, subscribing to our service, posting material or requesting further services. We may also ask you for information [when you enter a competition or promotion sponsored by, and] when you report a problem with our site. If you contact us, we may keep a record of that correspondence. We may also ask you to complete surveys that we use for research purposes, although you do not have to respond to them. Details of transactions you carry out through our site and of the fulfilment of your orders. Details of your visits to our site including, but not limited to, traffic data, location data, weblogs and other communication data, whether this is required for our own billing purposes or otherwise and the resources that you access. IP addresses We may collect information about your computer, including where available your IP address, operating system and browser type, for system administration and to report aggregate information to our advertisers. This is statistical data about our users\' browsing actions and patterns, and does not identify any individual. Cookies Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site. For detailed information on the cookies we use and the purposes for which we use them see our Cookie policy Where we store your personal data The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (\"EEA\"). It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. Such staff maybe engaged in, among other things,  the fulfilment of your order, the processing of your payment details and the provision of support services. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy. All information you provide to us is stored on our secure servers. Any payment transactions will be encrypted [using SSL technology]. Where we have given you (or where you have chosen) a password which enables you to access certain parts of our site, you are responsible for keeping this password confidential. We ask you not to share a password with anyone. Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access. Uses made of the information We use information held about you in the following ways: To ensure that content from our site is presented in the most effective manner for you and for your computer. To provide you with information, products or services that you request from us or which we feel may interest you, where you have consented to be contacted for such purposes. To carry out our obligations arising from any contracts entered into between you and us. To allow you to participate in interactive features of our service, when you choose to do so. To notify you about changes to our service. We may also use your data, or permit selected third parties to use your data, to provide you with information about goods and services which may be of interest to you and we or they may contact you about these by post or telephone. If you are an existing customer, we will only contact you by electronic means (e-mail or SMS) with information about goods and services similar to those which were the subject of a previous sale to you. If you are a new customer, and where we permit selected third parties to use your data, we (or they) will contact you by electronic means only if you have consented to this. If you do not want us to use your data in this way, or to pass your details on to third parties for marketing purposes, please tick the relevant box situated on the form on which we collect your data. We do not disclose information about identifiable individuals to our advertisers, but we may provide them with aggregate information about our users (for example, we may inform them that 500 men aged under 30 have clicked on their advertisement on any given day). We may also use such aggregate information to help advertisers reach the kind of audience they want to target (for example, women in SW1). We may make use of the personal data we have collected from you to enable us to comply with our advertisers\' wishes by displaying their advertisement to that target audience. Disclosure of your information We may disclose your personal information to any member of our group, which means our subsidiaries, our ultimate holding company and its subsidiaries, as defined in section 1159 of the UK Companies Act 2006. We may disclose your personal information to third parties: In the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets. If HAIR TREAT LTD or substantially all of its assets are acquired by a third party, in which case personal data held by it about its customers will be one of the transferred assets. If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our terms of use or terms and conditions of supply and other agreements; or to protect the rights, property, or safety of HAIR TREAT LTD, our customers, or others. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction. Your rights You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data.  You can also exercise the right at any time by contacting us at info@hairtreat.co.uk. Our site may, from time to time, contain links to and from the websites of our partner networks, advertisers and affiliates.  If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies.  Please check these policies before you submit any personal data to these websites. Access to information The Act gives you the right to access information held about you. Your right of access can be exercised in accordance with the Act. Any access request may be subject to a fee of £10 to meet our costs in providing you with details of the information we hold about you. Changes to our privacy policy Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. Contact Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to 2 PORTAL WAY, SUITE 507, LONDON, W3 6RT.</string>
+    <string name="relatedproducts">منتجات ذات صله</string>
+    <string name="upsellproducts">Upsell Products</string>
+    <string name="crosssellproducts">Cross Sell Products</string>
+    <string name="additional_info">Additional Info</string>
+    <string name="signin_drawer">تسجيل الدخول</string>
+    <string name="drawertext">حفظ وتسوق وعرض الطلبات</string>
+    <string name="account">الحساب الخاص بك</string>
+    <string name="image">صورة</string>
+    <string name="home">الرئيسية</string>
+    <string name="bag">سلة التسوق</string>
+    <string name="invite">دعوة أصدقائك</string>
+    <string name="extras">السوق</string>
+    <string name="copyright">Copyright</string>
+    <string name="noemailfound">No Email Found in this facebook account</string>
+    <string name="errorString">هناك خطأ ما. حاول مرة اخرى.</string>
+    <string name="middleName">الاسم الاوسط*</string>
+    <string name="OrderNum">طلب #</string>
+    <string name="details">تفاصيل</string>
+    <string name="description">الوصف</string>
+    <string name="appversion">نسخة البرنامج </string>
+    <string name="totalreview">مراجعة كاملة: </string>
+    <string name="sunmitting">تقديم....</string>
+    <string name="noinforegardingaddress">لا يوجد معلومات بخصوص العنوان</string>
+
+    <string name="Setasdefaultforbilling">تعيين كعنوان الفواتير الافتراضي</string>
+    <string name="Setasdefaultforshipping">تعيين كعنوان شحن افتراضي</string>
+    <string name="DefaultBilling">الفواتير الافتراضية</string>
+    <string name="DefaultShipping">الشحن التلقائي</string>
+    <string name="re_ordered">أعد ترتيبها</string>
+    <string name="reorder_product_s">أعادة الطلب</string>
+    <string name="order_summary">ملخص الطلب</string>
+    <string name="totalitems">"مجموع العناصر : "</string>
+    <string name="Quantity_">الكمية :</string>
+    <string name="product_basic_info">معلومات المنتج الأساسية</string>
+    <string name="OFF">"% Off "</string>
+    <string name="selectedspecification_notavailable">المنتج الذي يحتوي على المواصفات المختارة غير متوفر.</string>
+    <string name="CompareList">مقارنة المنتجات</string>
+    <string name="thisvedorhavenotprovidedanysupportnumber">لم يقدم هذا البائع أي رقم دعم</string>
+    <string name="thevendornotprovidedsupportmail">لم يقدم هذا البائع أي بريد إلكتروني للدعم</string>
+    <string name="compare_your_products">مقارنة منتجاتك:</string>
+    <string name="my_notifications">الإشعارات الخاصة بي</string>
+    <string name="nosubcategory_toexplore">خيارات الفئات الفرعية غير متاحة للاستكشاف.</string>
+    <string name="enter_quantity">أدخل الكمية</string>
+    <string name="search">بحث</string>
+    <string name="ordersummary">ملخص الطلب</string>
+    <string name="sortoptionsnotavailable">خيارات الفرز غير متوفرة في الوقت الحالي.</string>
+    <string name="filternotavailblefornow">الفلترة غير متاحة الان.</string>
+    <string name="total_">المجموع:</string>
+    <string name="stillnotconnected">غير متصل بالشبكة.</string>
+    <string name="set_place">تحديد المكان</string>
+    <string name="change">غير</string>
+
+
+    <string name = "shopdropicon"> shopdropIcon </string>
+    <string name = "signupwithnumber"> الاشتراك برقم الهاتف </string>
+    <string name = "loginwithnumber"> تسجيل الدخول باستخدام الهاتف المحمول </string>
+    <string name = "loginwithemail"> تسجيل الدخول بالبريد الإلكتروني </string>
+    <string name = "enterNumber"> أدخل رقم هاتفك !! </string>
+    <string name = "invalidMobileNumber"> رقم الجوال غير صالح </string>
+    <string name = "pleaseEnterTheOtp"> أدخل OTP المرسل إلى٪ 1 $ s </string>
+    <string name = "verifyOtp"> تحقق من رقم الاقتران </string>
+    <string name = "regenerateOtp"> اعادة أنشاء رقم الاقتران </string>
+    <string name = "invalidOTP"> رقم الاقتران غير صحيح </string>
+    <string name = "pleaseEnterEmail"> الرجاء إدخال البريد الإلكتروني. </string>
+    <string name = "pleaseEnterValidEmail"> الرجاء إدخال بريد إلكتروني صالح </string>
+    <string name = "pleaseEnterPassword"> الرجاء إدخال كلمة المرور </string>
+    <string name = "reset"> إعادة تعيين </string>
+    <string name = "timePickingShow"> ملاحظة: يظهر "اختيار الوقت" وقت التسليم التقريبي وليس الوقت المحدد. </string>
+    <string name = "commentNote"> "ملاحظة: مذكرة التسليم إذا كنت تريد ملاحظة شيء مهم." </string>
+    <string name = "selectMethod"> - حدد-- </string>
+    <string name = "pleaseSelectTime"> الرجاء تحديد الوقت. </string>
+    <string name = "comment"> التعليق: </string>
+    <string name = "ok"> حسنًا </string>
+    <string name = "pleaseSelectDate"> الرجاء تحديد التاريخ </string>
+    <string name = "selectDeliveryTimeFirst"> حدد وقت التسليم أولاً. </string>
+    <string name = "selectDeliveryDateFirst"> حدد تاريخ التسليم أولاً. </string>
+    <string name = "pleaseAddComment"> الرجاء إضافة تعليقك </string>
+    <string name = "noPaymentMtdAvailable"> لا توجد طريقة دفع متوفرة. </string>
+    <string name = "noQuotesAvailable"> لا توجد عروض أسعار متاحة. </string>
+    <string name = "topicon"> topIcon </string>
+    <string name = "payWithStripe"> الدفع باستخدام Stripe </string>
+    <string name = "pleaseSelectAnyMethod"> يرجى تحديد أي طريقة دفع أولاً </string>
+    <string name = "email_phone"> البريد الإلكتروني /رقم الهاتف </string>
+    <string name = "mylanguages"> لغاتي </string>
+    <string name = "sellerShopNotFound"> ​​عذرًا ، متجر البائع غير موجود. </string>
+    <string name = "vendorBanner"> شعار المورد </string>
+    <string name = "Categories"> <u> الفئات </u> </string>
+    <string name = "categoriesNotFound"> ​​لم يتم العثور على الفئات. </string>
+    <string name = "namee"> <b> الاسم </b> </string>
+    <string name = "mobileNumber"> <b> رقم الجوال </b> </string>
+    <string name = "address"> <b> العنوان </b> </string>
+    <string name = "cart"> عربة التسوق </string>
+    <string name = "acc"> الحساب </string>
+    <string name = "pleaseEnterTheOTP"> أدخل رقم الاقتران </string>
+    <string name="termcondtion_stat">أوافق على الشروط</string>
+
+    <string name="pleaseAgreeOurTermsAndCondition">يرجى التحقق من الشروط والأحكام للمتابعة.</string>
+    <string name="privacypolicy">سياسة الخصوصية</string>
+    <string name="delivery">معلومات التوصيل</string>
+    <string name="returnCenter">التبديل والاسترداد</string>
+    <string name="alreadyOnSearchPage">أنت بالفعل في صفحة البحث</string>
+
+    <string name="termcondtion">الشروط والاحكام</string>
+
+</resources>

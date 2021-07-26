@@ -1,0 +1,34 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <!--<ExpandableListView
+            android:id="@+id/MageNative_orderlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:divider="@color/white"
+            android:dividerHeight="10dp"
+            android:scrollbars="none">
+        </ExpandableListView>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/MageNative_orderlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/white"
+            tools:listitem="@layout/list_group"/>
+    </RelativeLayout>
+
+</layout>
+

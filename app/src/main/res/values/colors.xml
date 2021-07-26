@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright/**
+  ~          * CedCommerce
+  ~           *
+  ~           * NOTICE OF LICENSE
+  ~           *
+  ~           * This source file is subject to the End User License Agreement (EULA)
+  ~           * that is bundled with this package in the file LICENSE.txt.
+  ~           * It is also available through the world-wide-web at this URL:
+  ~           * http://cedcommerce.com/license-agreement.txt
+  ~           *
+  ~           * @category  Ced
+  ~           * @package   MageNative
+  ~           * @author    CedCommerce Core Team <connect@cedcommerce.com >
+  ~           * @copyright Copyright CEDCOMMERCE (http://cedcommerce.com/)
+  ~           * @license      http://cedcommerce.com/license-agreement.txt
+  ~           */
+  -->
+<resources>
+    <!--//&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;//-->
+   <!-- <color name="AppTheme">#131F39</color>-->
+    <color name="AppTheme">#eee</color>
+    <color name="status_bar_color">#FFFFFF</color>
+    <color name="secondory_color">#cf3f2a</color>
+    <color name="txtsecondory_color">#F8F8F8</color>
+    <color name="txtapptheme_color">#000000</color>
+    <color name="onwhitetextcolor">#000000</color>
+    <!--//&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;//-->
+    <color name="TextHintColor">#a9a9a9</color>
+    <color name="border">#F7F7F7</color>
+    <!--//&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;//-->
+    <color name="fb_color">#425DAD</color>
+    <color name="starcolor">#FDB727</color>
+    <color name="white">#ffffffff</color>
+    <color name="ebebebe">#80bebebe</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#ff9a9a9a</color>
+    <color name="darker_gray2">#ff808080</color>
+    <color name="seletedcolor">#57C2B2</color>
+    <color name="user_icon_default_gray">#ff9e9e9e</color>
+    <color name="Red_700">#ffc53929</color>
+    <color name="Red_800">#ffb93221</color>
+    <color name="ratingbar">#DB701B</color>
+    <!--<color name="AppTheme">#011a27</color>
+    <color name="status_bar_color">#011a27</color>
+    <color name="secondory_color">#000</color>-->
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <color name="ButtonColor">#da4855</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="button_click">#FFFFBB3C</color>
+    <color name="main_color_gray_dk">#3b3b3b</color>
+    <color name="main_color_gray_lt">#acacac</color>
+    <color name="main_color_gray">#7d7d7d</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="yellow">#ffff00</color>
+    <color name="bd">#BDBDBD</color>
+    <color name="placeholder_bg">#DDDDDD</color>
+    <color name="yellow_search">#fdd302</color>
+    <color name="linkBlue">#0645AD</color>
+
+</resources>

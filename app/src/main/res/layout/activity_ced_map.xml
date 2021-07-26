@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.demo.grocerystore.Ced_MageNative_Location.Ced_MapActivity" />
+
+        <LinearLayout
+            android:id="@+id/locationMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/locationMarkertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_square"
+                android:gravity="center"
+                android:minWidth="250dp"
+                android:minHeight="50dp"
+                android:visibility="gone"
+                android:padding="@dimen/pad_5dp"
+                android:text="Your item will be delivered here"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/imageMarker"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:src="@drawable/location_pin_up" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:clickable="true"
+        android:padding="@dimen/pad_5dp">
+
+        <TextView
+            android:id="@+id/txt_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pad_10dp"
+            android:padding="@dimen/pad_5dp"
+            android:text="@string/your_location"
+            android:textAllCaps="true"
+            android:textColor="@color/quantum_grey"
+            android:textSize="@dimen/txt_12sp" />
+
+        <LinearLayout
+            android:id="@+id/location_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_heading"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_heading"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/pad_10dp"
+                android:layout_toStartOf="@id/but_change"
+                android:layout_weight="0.8"
+                android:background="@drawable/filterselector"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:gravity="start|center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="@dimen/pad_5dp"
+                android:scrollHorizontally="true"
+                android:textSize="@dimen/txt_16sp" />
+
+            <TextView
+                android:id="@+id/but_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_heading"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/pad_10dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/cast_skip_ad_label_border"
+                android:gravity="center"
+                android:paddingStart="@dimen/pad_5dp"
+                android:paddingTop="7dp"
+                android:paddingEnd="@dimen/pad_5dp"
+                android:paddingBottom="7dp"
+                android:text="Change"
+                android:textAllCaps="true"
+                android:textColor="@color/AppTheme"
+                android:textSize="@dimen/pad_10dp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/location_layout"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:layout_marginRight="@dimen/pad_10dp"
+            android:background="@color/quantum_grey"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/optional_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="@dimen/pad_15dp"
+            android:layout_marginRight="8dp"
+            android:backgroundTint="@color/darker_gray"
+            android:hint="Complete address (optional)"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/confirm_shipping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_5dp"
+                android:layout_marginRight="@dimen/pad_5dp"
+                android:layout_marginBottom="@dimen/pad_5dp"
+                android:layout_weight="0.5"
+                android:background="@color/AppTheme"
+                android:minHeight="50dp"
+                android:visibility="gone"
+                android:text="@string/set_as_delivery_location"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="@string/OR"
+                android:visibility="gone"
+                android:textColor="@color/AppTheme"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/confirm_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_5dp"
+                android:layout_marginRight="@dimen/pad_5dp"
+                android:layout_marginBottom="@dimen/pad_5dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/corner"
+                android:minHeight="50dp"
+                android:text="@string/continuee"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stripe:stripe-android:9.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4b332d749624ed295708bef80313db9/jetified-stripe-android-9.2.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4b332d749624ed295708bef80313db9/jetified-stripe-android-9.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4b332d749624ed295708bef80313db9/jetified-stripe-android-9.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4b332d749624ed295708bef80313db9/jetified-stripe-android-9.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/9.2.0/bb3df95815550240fb996b80a437ae7b049e157e/stripe-android-9.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/9.2.0/92db7aa44c7b12fba66cefc90a1285c42ee87b1e/stripe-android-9.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

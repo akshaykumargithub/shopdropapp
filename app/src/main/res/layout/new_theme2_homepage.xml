@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="home"
+            type="shop.dropapp.ui.newhomesection.model.HomeNewModel" />
+
+        <variable
+            name="homeclick"
+            type="shop.dropapp.ui.newhomesection.activity.Magenative_HomePageNewTheme" />
+    </data>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/homecontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/pad_5dp"
+            android:visibility="visible"
+            tools:context=".Ced_MageNative_Activity.HomepageNewActivity">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/search_box"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:layout_constraintBottom_toTopOf="@+id/nested_scrollview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/locationField"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/start_two_border"
+                    android:fontFamily="@font/celias_regular"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/your_location"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/pad_10dp"
+                    android:paddingEnd="@dimen/pad_10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="@dimen/txt_12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/locationSearch"
+                    app:layout_constraintHorizontal_weight="0.8"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/locationSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/end_two_border"
+                    android:gravity="center"
+                    android:text="@string/change"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_weight="0.2"
+                    app:layout_constraintStart_toEndOf="@+id/locationField"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nested_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:background="@color/white"
+                android:paddingBottom="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/search_box">
+
+                <LinearLayout
+                    android:id="@+id/home_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/pad_5dp"
+                    android:visibility="gone" />
+
+
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/noVendors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notInRange"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold|italic"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nested_scrollview" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</layout>

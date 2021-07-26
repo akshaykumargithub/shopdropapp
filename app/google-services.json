@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "550184754716",
+    "project_id": "shopdrop-374d0",
+    "storage_bucket": "shopdrop-374d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550184754716:android:4893e752839eb5f525c9d9",
+        "android_client_info": {
+          "package_name": "shop.dropapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550184754716-glpc0iajqurqfd3hkmfvciqkbrurh95f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shop.dropapp",
+            "certificate_hash": "ba468a353a30b8734449dc5a1c2359145961a516"
+          }
+        },
+        {
+          "client_id": "550184754716-onbdas0cit3kllf6olip82d3le6uedlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shop.dropapp",
+            "certificate_hash": "cd7dfa96f83c4a931de16c524f2c79cf30a772ff"
+          }
+        },
+        {
+          "client_id": "550184754716-dhtpbmp7ql59i7j4hnpltajdud0jsjr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvd-yFz2lF24G_UVW96ClIsL7-8UPJ05o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550184754716-dhtpbmp7ql59i7j4hnpltajdud0jsjr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

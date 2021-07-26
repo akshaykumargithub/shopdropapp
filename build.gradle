@@ -1,0 +1,51 @@
+/*
+ * Copyright/**
+ *          * CedCommerce
+ *           *
+ *           * NOTICE OF LICENSE
+ *           *
+ *           * This source file is subject to the End User License Agreement (EULA)
+ *           * that is bundled with this package in the file LICENSE.txt.
+ *           * It is also available through the world-wide-web at this URL:
+ *           * http://cedcommerce.com/license-agreement.txt
+ *           *
+ *           * @category  Ced
+ *           * @package   MageNative
+ *           * @author    CedCommerce Core Team <connect@cedcommerce.com >
+ *           * @copyright Copyright CEDCOMMERCE (http://cedcommerce.com/)
+ *           * @license      http://cedcommerce.com/license-agreement.txt
+ *
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral() // for retrofit
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+       // classpath 'io.codearte.gradle.nexus:gradle-nexus-staging-plugin:0.5.3'
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.28-alpha'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://jitpack.io"   // for spinkit
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

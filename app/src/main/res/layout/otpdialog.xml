@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/otpMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/pad_10dp"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:layout_marginEnd="@dimen/pad_10dp"
+        android:fontFamily="@font/celias_regular"
+        android:text="@string/pleaseEnterTheOtp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/otpValue"
+        android:layout_width="@dimen/dim_100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:autofillHints="Enter OTP please"
+        android:fontFamily="@font/celias_bold"
+        android:inputType="number"
+        android:labelFor="@id/otpMsg"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otpMsg" />
+
+    <TextView
+        android:id="@+id/verifyOtp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/pad_30dp"
+        android:background="@color/secondory_color"
+        android:fontFamily="@font/celias_bold"
+        android:gravity="center"
+        android:text="@string/verifyOtp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/regenerateOtp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otpValue" />
+
+    <TextView
+        android:id="@+id/regenerateOtp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="@dimen/pad_30dp"
+        android:background="@color/secondory_color"
+        android:fontFamily="@font/celias_bold"
+        android:gravity="center"
+        android:text="@string/regenerateOtp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/verifyOtp"
+        app:layout_constraintTop_toBottomOf="@+id/otpValue" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

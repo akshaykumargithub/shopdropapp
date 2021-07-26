@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/pad_10dp">
+
+        <ImageView
+            android:id="@+id/check_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/topicon"
+            android:src="@drawable/check3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/payment_tit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_20dp"
+            android:layout_marginEnd="@dimen/pad_10dp"
+            android:layout_marginBottom="@dimen/txt_20sp"
+            android:text="@string/select_payment_method"
+            android:textSize="@dimen/txt_14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_icon" />
+
+        <Spinner
+            android:id="@+id/payment_list"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/pad_15dp"
+            android:popupBackground="@color/white"
+            android:layout_marginTop="@dimen/pad_20dp"
+            android:layout_marginEnd="@dimen/pad_15dp"
+            android:layout_marginBottom="@dimen/txt_20sp"
+            android:background="@drawable/spinnerbg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/payment_tit" />
+
+
+        <LinearLayout
+            android:id="@+id/additionaldata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pad_15dp"
+            android:layout_marginTop="@dimen/pad_20dp"
+            android:layout_marginEnd="@dimen/pad_15dp"
+            android:layout_marginBottom="@dimen/txt_20sp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/payment_list" />
+
+        <TextView
+            android:id="@+id/stripetit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pad_15dp"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/pad_20dp"
+            android:layout_marginEnd="@dimen/pad_15dp"
+            android:layout_marginBottom="@dimen/txt_20sp"
+            android:text="@string/payWithStripe"
+            android:textSize="@dimen/txt_14sp"
+            android:fontFamily="@font/celias_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/additionaldata" />
+
+        <com.stripe.android.view.CardInputWidget
+            android:id="@+id/cardInputWidget"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:padding="@dimen/pad_5dp"
+            android:layout_margin="@dimen/txt_20sp"
+            android:background="@drawable/spinner_border"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stripetit"
+            />
+
+
+        <TextView
+            android:id="@+id/continueshipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/additionaldata"
+            android:layout_marginStart="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_30dp"
+            android:layout_marginEnd="@dimen/pad_10dp"
+            android:background="@drawable/sortbyselector"
+            android:fontFamily="@font/celias_bold"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="@dimen/pad_10dp"
+            android:text="@string/nativecontinue"
+            android:textAllCaps="true"
+            android:textColor="@color/AppTheme"
+            android:textSize="@dimen/txt_subheading15"
+            app:layout_constraintTop_toBottomOf="@id/cardInputWidget" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

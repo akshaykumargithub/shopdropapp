@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_location_data_provided">Aucun fournisseur de localisation</string>
+    <string name="set_as_delivery_location">Définir comme lieu de livraison</string>
+    <string name="your_location">Votre emplacement</string>
+    <string-array name="gender">
+        <item>Veuillez sélectionner le sexe</item>
+        <item>Mâle</item>
+        <item>Femme</item>
+        <item>Non spécifié</item>
+    </string-array>
+    <string name="hello_world">Bonjour!</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_search">chercher</string>
+    <string name="action_notification">notification</string>
+    <string name="drawer_open">Menu coulissant ouvert</string>
+    <string name="drawer_close">Menu du curseur fermé</string>
+    <string-array name="nav_drawer_items">
+        <item>d/accueil</item>
+        <item>Catégorie</item>
+        <item>Profil</item>
+        <item>Carnet d/adresses</item>
+        <item>Mes commandes</item>
+        <item>Ma liste d/envies</item>
+        <item>My Downloads</item>
+        <item>Langue</item>
+        <item>Suite..</item>
+        <item>Nous contacter</item>
+
+    </string-array>
+
+    <string name="alreadyOnSearchPage">Vous êtes déjà sur la page de recherche</string>
+    <string name="termcondtion"><u>Termes et conditions</u></string>
+    <string name="termcondtion_stat">J\'accepte les termes et conditions</string>
+    <string name="privacypolicy">Politique de confidentialité</string>
+    <string name="delivery">Info de livraison</string>
+    <string name="returnCenter">Remboursement de retourr</string>
+    <string name="pleaseAgreeOurTermsAndCondition">Veuillez vérifier les conditions générales pour continuer.</string>
+
+    <string name="addtocart">Ajouter au panier</string>
+    <string name="MyWishList">Ma liste d/envies</string>
+    <string name="Company">Suite..</string>
+    <string name="Home">d/accueil</string>
+    <string name="Category">Catégorie</string>
+    <string name="Profile">Profil</string>
+    <string name="AddressBook">Carnet d/adresses</string>
+    <string name="MyOrders">Mes commandes</string>
+    <string name="MyStores">Langue</string>
+    <string name="ContactUs">Nous contacter</string>
+    <string name="MyDownloads">Mes Téléchargements</string>
+    <string name="title_activity_product_listing">ProductListing</string>
+    <string name="title_activity_product_view_page">ProductViewPage</string>
+    <string name="title_activity_product_view_fagment">ProductViewFagment</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_show_image">ShowImage</string>
+    <string name="title_activity_wish_listing">WishListing</string>
+    <string name="title_activity_cart_listing">CartListing</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="SignIn">S/identifier</string>
+    <string name="action_cart">Panier</string>
+    <string name="cmspage">CMS pages</string>
+    <string name="title_activity_sub_category_listing">SubCategoryListing</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="Username">Nom d/utilisateur</string>
+    <string name="Password">MOT DE PASSE</string>
+    <string name="ForgotPassword">Mot de passe oublié?</string>
+    <string name="Registration">Inscrivez vous ici</string>
+    <string name="Register">Inscription</string>
+    <string name="Required">*:Obligatoire</string>
+    <string name="FirstName">Prénom*</string>
+    <string name="Email">Email*</string>
+    <string name="Write_a_Review">Écrire une critique</string>
+    <string name="howdoyourate">Comment notez vous ce produit ?</string>
+    <string name="Pass">MOT DE PASSE*</string>
+    <string name="allcategories">Toutes catégories</string>
+    <string name="ConfirmPassword">Confirmez le mot de passe*</string>
+    <string name="reg">S/inscrire</string>
+    <string name="LastName">Nom de famille*</string>
+    <string name="SignOut">Se déconnecter</string>
+    <string name="Send">envoyer</string>
+    <string name="CreateAccount">Créer un compte</string>
+    <string name="update">Mettre à jour</string>
+    <string name="MyAddresses">Mon carnet d/adresses</string>
+    <string name="AddAddress">Ajouter une adresse</string>
+    <string name="Pincode">Code postal*</string>
+    <string name="Address">Adresse</string>
+    <string name="Street">rue*</string>
+    <string name="City">Ville*</string>
+    <string name="State">État*</string>
+    <string name="Country">De campagne*</string>
+    <string name="Save">réserver</string>
+    <string name="PhoneNumber">Numéro de téléphone*</string>
+    <string name="MyOrder">Mes commandes</string>
+    <string name="AddAddressOutput">Vous n\'avez pas ajouté d\'adresse à votre carnet d\'adresses</string>
+    <string name="Noordderplaced">Vous n\'avez passé aucune commande</string>
+    <string name="profile">Profil</string>
+    <string name="btn_logout_from_google">Déconnexion de Google</string>
+    <string name="btn_revoke_access">Accès révoqué</string>
+    <string name="AddReview">Écrire une critique</string>
+    <string name="GeneratePass">Générez votre nouveau mot de passe</string>
+    <string name="title_activity_testingtabs">Testingtabs</string>
+    <string name="title_activity_my_downloadable_products">MyDownloadableProducts</string>
+    <string name="title_activity_product_description">ProductDescription</string>
+    <string name="title_activity_load_webdescription">LoadWebdescription</string>
+    <!-- <string name="base_url">https://207.246.97.160/</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabsact">Tabsact</string>
+    <string name="confirm_first">Êtes vous sûr de vouloir supprimer ceci?</string>
+    <string name="confirm_alldelete">Êtes vous sûr de vouloir supprimer tous les articles existants dans le panier ?</string>
+    <string name="confirm_allwishdelete">Êtes vous sûr de vouloir supprimer tous les articles de la liste de souhaits ? <br /> Vous pouvez également supprimer 1 élément simplement en faisant glisser vers la gauche vers cet élément.</string>
+    <string name="yes">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="qty">Qty : </string>
+    <string name="price">Prix :</string>
+    <string name="subtotal">Total : </string>
+    <string name="title_activity_maps">carte</string>
+    <string name="shareurl">http://viewShareProduct.com/</string>
+    <string name="networkissue">Veuillez réessayer tard</string>
+    <string name="url_not_found">Veuillez réessayer tard</string>
+    <string name="lownetwork">Une connexion réseau faible est détectée</string>
+    <string name="title_activity_no_module">NoModule</string>
+    <string name="Checkout_Address">Checkout_Address</string>
+    <string name="Action">Action</string>
+    <string name="empty">Veuillez entrer une valeur</string>
+    <string name="downloadableproductsincart">Veuillez d\'abord vous connecter / vous inscrire car vous avez des produits téléchargeables dans votre panier</string>
+    <string name="itemcounttext">Articles dans votre panier</string>
+    <string name="suntotal">Total:</string>
+    <string name="shippingamount">ExpéditionAmount:</string>
+    <string name="ProceedTocheckout">Passer à la caisse</string>
+    <string name="YourOrderHasBeenPlacedSuccessfully">Votre commande a été passée avec succès</string>
+    <string name="continueshopping"><![CDATA[Continuer vos achats ]]></string>
+    <string name="orderquantity">Quantité commandée :</string>
+    <string name="Proceed_as_Guest">Procéder en tant qu/invité</string>
+    <string name="Proceed_as_User">Procéder en tant qu/utilisateur</string>
+    <string name="Email_Hint">Entrez votre email ici..</string>
+    <string name="Login_as_User">Connectez vous en tant qu/utilisateur</string>
+    <string name="select_payment_method">Sélectionnez le mode de paiement</string>
+    <string name="select_method_for_shipping">Sélectionnez le mode de livraison</string>
+    <string name="continuee">Continuez</string>
+    <string name="Choose_Address_from_addressbook">Choisissez l/adresse dans le carnet d/adresses</string>
+    <string name="Price">Prix</string>
+    <string name="filter">Filtres</string>
+    <string name="ForgotPass">Générer un nouveau mot de passe</string>
+    <string name="Viewall">Voir tout</string>
+    <string name="shipto">ENVOYEZ À</string>
+    <string name="orderid">commande Id:</string>
+    <string name="cost">COÛT :</string>
+    <string name="Amount">Montant : </string>
+    <string name="orderdate">DATE DE COMMANDE</string>
+    <string name="Shipping_Address">Adresse de livraison</string>
+    <string name="shippingmethod">MODE DE LIVRAISON:</string>
+    <string name="paymentmethod">MODE DE PAIEMENT:</string>
+    <string name="subtotalatorder">TOTAL:</string>
+    <string name="taxprice">Tax Prix :</string>
+    <string name="shipping">Expédition :</string>
+    <string name="discount">Rabais :</string>
+    <string name="grandtotal">Total général:</string>
+    <string name="clearfilter">Effacer le filtre</string>
+    <string name="New_Price">Nouveau prix :</string>
+    <string name="STOCK">STOCK :</string>
+    <string name="Quantity">Quantité: </string>
+    <string name="Description">Description</string>
+    <string name="Details">Des détails</string>
+    <string name="ATC">Ajouter au panier</string>
+    <string name="New_Password">Nouveau mot de passe</string>
+    <string name="Confirm_Password">Confirmez le mot de passe</string>
+    <string name="ShowPass">Montrer le mot de passe</string>
+    <string name="sortby">Trier par</string>
+    <string name="sortbycat">Catégorie</string>
+    <string name="Featured_Products">Produits populaires</string>
+    <string name="areyousure">Êtes vous sûr de vouloir supprimer ceci??</string>
+    <string name="MostViewed_Products">Le plus regardé</string>
+    <string name="BestSellers">Meilleurs vendeurs</string>
+    <string name="New_Arrivals">Nouvelles Arrivées</string>
+    <string name="PLACE_ORDER">PASSER LA COMMANDE</string>
+    <string name="invalidemail">Email invalide</string>
+    <string name="succesfullLogin">Connexion réussie</string>
+    <string name="invalidLogin">Informations de connexion invalide</string>
+    <string name="adding">Ajouter...</string>
+    <string name="minimum_8_character">Minimum 8 caractères requis</string>
+    <string name="confirmnotmatch">Confirmer le mot de passe et le mot de passe ne correspondent pas</string>
+    <string name="SearchYourProducts">Rechercher vos produits</string>
+    <string name="your_order_id">Votre identifiant de commande est</string>
+    <string name="orderplacesuccess">Votre commande a été passée avec succès </string>
+    <string name="pleaseTryagain">Veuillez réessayer</string>
+    <string name="title_activity_un_authourized_request_error">UnAuthourizedRequestError</string>
+    <string name="saved">enregistré</string>
+    <string name="title_activity_no_internetconnection">Pas de connexion Internet</string>
+    <string name="enteremail">Veuillez entrer votre email</string>
+    <string name="submit">soumettre</string>
+    <string name="loginfirst">Veuillez d/abord vous connecter pour voir cette section</string>
+    <string name="loginfirsttocompare">Veuillez d\'abord vous connecter pour comparer vos produits</string>
+    <string name="itemtodownload">Articles à télécharger</string>
+    <string name="youhave">Vous avez</string>
+    <string name="inwishlist">Dans la liste de souhaits</string>
+    <string name="loginfirsttoaddwish">Veuillez vous connecter d\'abord pour ajouter cet article à la liste de souhaits</string>
+    <string name="addtowishlist"> Liste de souhaits</string>
+    <string name="review">Commentaires</string>
+    <string name="offer">offre</string>
+    <string name="percent">% off</string>
+    <string name="shareproduct">Partager le produit</string>
+    <string name="similar">Produits similaires</string>
+    <string name="options">Choisissez les options</string>
+    <string name="nooption">Aucune option disponible!</string>
+    <string name="samples">Samples</string>
+    <string name="pleasechoose">Veuillez d/abord choisir les options</string>
+
+
+    <string name="value">Évaluer</string>
+    <string name="letusknow">Faites nous part de vos pensées</string>
+    <string name="summaryofreview">Résumé de votre commentaire</string>
+    <string name="nickname">Quel est votre surnom?</string>
+    <string name="couponcode">Votre code de coupon</string>
+    <string name="apply">Appliquer</string>
+    <string name="selectyourlogin">Sélectionnez votre connexion ici</string>
+    <string name="wishlistitems">Articles de la liste de souhaits</string>
+    <string name="continueasguest">Continuer en tant qu/invité</string>
+    <string name="continueasuser">Continuer en tant qu/utilisateur</string>
+    <string name="taptoselect">Appuyez pour sélectionner le pays</string>
+    <string name="date">Date :</string>
+    <string name="tittle">Tittle :</string>
+    <string name="linktittle">Titre du lien :</string>
+    <string name="status">Statut :</string>
+    <string name="remainingdoenload">Téléchargements restants :</string>
+    <string name="clickhere">Cliquez ici pour télécharger</string>
+    <string name="applyfilter">Appliquer le filtre</string>
+    <string name="enteremailtogenerate">Entrez votre adresse e-mail enregistrée pour générer un nouveau mot de passe
+</string>
+    <string name="refresh">Rafraîchir</string>
+    <string name="from">De:</string>
+    <string name="to">À:</string>
+    <string name="links">Links:</string>
+    <string name="oldpass">Ancien mot de passe</string>
+    <string name="alreadyhave"><u>Vous avez déjà un compte? Connectez vous ici</u></string>
+    <string name="by">Par</string>
+    <string name="allSubcat">Toutes les sous-catégories</string>
+    <string name="title_activity_store_view">StoreView</string>
+    <string name="startingfrom">À partir de :</string>
+    <string name="aslowas">Aussi bas que:</string>
+    <string name="removecoupon">Supprimer le coupon</string>
+    <string name="registercanreview">Seul les utilisateurs enregistrés peuvent écrire une critique. S\'il vous plaît vous connecter ou vous inscrire</string>
+    <string name="NoProductFound">Aucun produit trouvé</string>
+    <string name="BestSellingProducts">Meilleurs vendeurs</string>
+    <string name="Mostviewed">Le plus regardé</string>
+    <string name="NewArrivals">Nouvelles Arrivées</string>
+    <string name="FeaturedProducts">Produits populaires</string>
+    <string name="Quality">Qualité</string>
+    <string name="title_activity_mage_native_maps">Carte</string>
+    <string name="title_activity_ads_for_cedcommerce">AdsForCedcommerce</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8238723280053978/7292270040</string>
+    <string name="specialPrice">Nouveau prix :</string>
+    <string name="browse">Parcourir</string>
+    <string name="newfrom">De</string>
+    <string name="newto">À</string>
+    <string name="rating">Review &amp; rating</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="HotDeals">Bonnes affaires</string>
+    <string name="products">Des produits</string>
+    <string name="NoDealsAvailable">Aucune offre disponible pour le moment</string>
+    <string name="NoProductsAvailable">Désolé Aucun produit disponible en ce moment.</string>
+    <string name="title_activity_new_product_listing">NewProductListing</string>
+    <string name="title_activity_andro__aaka">Andro_Aaka</string>
+    <string name="speech_prompt">Dites quelque chose &amp; #8230;</string>
+    <string name="speech_not_supported">Pardon! Votre appareil ne prend pas en charge la saisie vocale</string>
+    <string name="tap_on_mic">Appuyez sur le micro pour parler</string>
+    <string name="title_activity_voice_recognition">VoiceRecognitionActivity</string>
+    <string name="selectgender">S/il vous plait selectionnez votre genre</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="Login">CONNEXION</string>
+    <string name="signupwithustext">inscrivez vous avec nous</string>
+    <string name="Usrname">Nom d/utilisateur</string>
+    <string name="EditProfile">Editer le profil</string>
+    <string name="title_activity_filteractivity">Filteractivity</string>
+    <string name="Settings">Réglages</string>
+    <string name="Vendor_review">Évaluations du vendeur :</string>
+    <string name="sold_by">Vendu par</string>
+    <string name="slide"><![CDATA[<<--faites glisser vers la gauche pour modifier / supprimer]]></string>
+    <string name="searchvendors">Rechercher des fournisseurs</string>
+    <string name="Countrysearch">De campagne</string>
+    <string name="statesearch">État</string>
+    <string name="zipsearch">Code Postal</string>
+    <string name="vendornamesearch">Nom du fournisseur</string>
+    <string name="company">Entreprise </string>
+    <string name="vendorsince">Fournisseur depuis :</string>
+    <string name="citysearch">Ville</string>
+    <string name="appstoreurl">https://play.google.com/store/apps/details?id=shop.dropapp</string>
+    <string name="Enable_Log">Oui</string>
+    <string name="BuyNow">Acheter maintenant</string>
+    <string name="shop_cat">Acheter par catégories</string>
+    <string name="Viewdetails"><u>Voir les détails</u></string>
+    <string name="oops">OooPs!!</string>
+    <string name="placedontext">Placé sur</string>
+    <string name="tobepaid">Être payé par</string>
+    <string name="items">éléments</string>
+    <string name="amounttopay">Montant à payer :</string>
+    <string name="shippingcharges">Frais d\'expédition :</string>
+    <string name="discounttext">Rabais :</string>
+    <string name="grandamount">Somme finale :</string>
+    <string name="logintype">Veuillez sélectionner le type de connexion</string>
+    <string name="loginattemptcancled">Tentative de connexion annulée.</string>
+    <string name="loginfailed">Échec de la connexion</string>
+    <string name="specifiedapp">Ce n/est pas l/application spécifiée</string>
+    <string name="excitingoffers">Offres intéressantes</string>
+    <string name="featuredproducts">Produits populaires</string>
+    <string name="sortbyitems">Trier les articles par </string>
+    <string name="hey">```Hé! Vérifier</string>
+    <string name="on">sur</string>
+    <string name="reviews">Commentaires</string>
+    <string name="ratings">Évaluations</string>
+    <string name="nooptionsavailable">Aucune option disponible</string>
+    <string name="storage">L/autorisation de stockage nous permet d/accéder aux données. Veuillez autoriser dans les paramètres de l/application pour des fonctionnalités supplémentaires.</string>
+    <string name="nosimilarproductfound">Aucun produit similaire trouvé</string>
+    <string name="buynow">Acheter maintenant</string>
+    <string name="permissiondenied">Permission refusée</string>
+    <string name="totalreviews">Revue totale:</string>
+    <string name="nofilteravailables">Aucun filtre disponible</string>
+    <string name="selectwebstore">Sélectionnez votre boutique en ligne :</string>
+    <string name="wishlistitemsin"> Articles dans votre liste de souhaits</string>
+    <string name="selectcountry">Sélectionnez votre pays:</string>
+    <string name="selectstate">Sélectionnez votre état:</string>
+    <string name="fillsomevalue">Veuillez remplir une valeur ou sélectionner une adresse ci-dessus</string>
+    <string name="somethingbadhappended">Un problème est survenu, veuillez essayer après un certain temps</string>
+    <string name="selectonebillingaddress">Veuillez sélectionner une adresse de facturation s/il vous plaît</string>
+    <string name="orderquantitynative">Quantité commandée</string>
+    <string name="nativecontinue">Continuez</string>
+    <string name="placeorder">Passer la commande</string>
+    <string name="selectpaymentfirst">Veuillez d\'abord sélectionner un mode de paiement</string>
+    <string name="fillsomevaluefirst">Veuillez remplir une valeur</string>
+    <string name="selectshippinfmethodfirst">Veuillez d\'abord sélectionner une méthode d/expédition</string>
+    <string name="transactioncanceled">Transaction annulée en raison d/un problème technique ... réessayez plus tard</string>
+    <string name="bethefirstone">Soyez le premier à évaluer</string>
+    <string name="heycheckout">```Hé! Découvrez le nouveau</string>
+    <string name="googleplayservcices">Application sur Google play store```</string>
+    <string name="invitefriends">Inviter des amis</string>
+    <string name="camerapermission">la permission de la caméra nous permet d/accéder aux données. Veuillez autoriser dans les paramètres de l/application pour des fonctionnalités supplémentaires
+.</string>
+    <string name="myaccount">Mon compte</string>
+    <string name="signup">Vous connecter/vous inscrire</string>
+    <string name="noresultfound">Aucun résultat trouvé</string>
+    <string name="billingaddress">Adresse de facturation</string>
+    <string name="addnewaddress">+ Ajouter une nouvelle adresse</string>
+    <string name="email">Email</string>
+    <string name="firstname">Prénom</string>
+    <string name="lastname">Nom de famille</string>
+    <string name="streetaddress">Adresse de rue</string>
+    <string name="city">Ville</string>
+    <string name="Zipcode">Code postal</string>
+    <string name="number">Numéro de téléphone</string>
+    <string name="country">De campagne</string>
+    <string name="state">État</string>
+    <string name="taptoselectdata">Appuyez pour sélectionner État</string>
+    <string name="paymentmethods">Méthodes de payement</string>
+    <string name="revieworder">Vérifier la commande</string>
+    <string name="shippingmethods">Méthodes de livraison</string>
+    <string name="Order">Commander</string>
+    <string name="order_id">Commander Id</string>
+    <string name="amount">Montant</string>
+    <string name="statusnative">Statut</string>
+    <string name="coupontext">Votre code de réduction a été appliqué avec succès, vous serez averti si vous êtes l/un des heureux gagnants.</string>
+    <string name="cantconnet">Impossible de se connecter au serveur. Veuillez vérifier la connexion réseau.</string>
+    <string name="outofstock">En rupture de stock</string>
+    <string name="share">Partager</string>
+    <string name="wishlist">Liste de souhaits</string>
+    <string name="specification">Spécification</string>
+    <string name="more_info">Plus d/informations</string>
+    <string name="morereviews">Critiques d/utilisateurs</string>
+    <string name="upgradenow">Mettre à jour maintenant !!</string>
+    <string name="noreviews">Aucun commentaire Disponible pour ce produit.</string>
+    <string name="delete">Effacer</string>
+    <string name="noexicitingofferstoshow">Aucune offre intéressante à afficher.</string>
+    <string name="clearcart">Vider le panier</string>
+    <string name="postedon">Posté sur :</string>
+    <string name="noaddress">On dirait que vous n/avez pas d/adresses enregistrées</string>
+    <string name="datehash">#DATE</string>
+    <string name="select">#SÉLECTIONNER</string>
+    <string name="noshopping">Vous n/avez aucun article dans votre panier.</string>
+    <string name="nodownloads">You have no downloadable items</string>
+    <string name="nowishlist">Vous n/avez aucun article dans votre liste de souhaits</string>
+    <string name="textarea">#TEXTAREA</string>
+    <string name="file">#FILE</string>
+    <string name="nofileselected">No File Selected</string>
+    <string name="allowfiletype">Allowed file type:</string>
+    <string name="png">Png</string>
+    <string name="maxwidth">Maximum Image Width :</string>
+    <string name="maxheight">Maximum Image Height :</string>
+    <string name="scanproducts">Scan Products</string>
+    <string name="visitseller">Visiter les vendeurs</string>
+    <string name="exclusive">Catégories exclusives!!</string>
+    <string name="OR">OU</string>
+    <string name="signupforgoogle">Inscrivez-vous avec Google</string>
+    <string name="signupforfacebook">Sign up with facebook</string>
+    <string name="Mr">Mâle.</string>
+    <string name="mis">Femme.</string>
+    <string name="done">Fait</string>
+    <string name="newsletter">S/inscrire aux Newsletters</string>
+    <string name="noorder">Vous n/avez aucune commande</string>
+    <string name="noproducts">Aucun produit dans cette catégorie</string>
+    <string name="nointernet">Connexion Internet perdue!</string>
+    <string name="shipment">Expédition</string>
+    <string name="skip">Sauter</string>
+    <string name="next">Suivant</string>
+    <string name="gotit">J/ai compris! Commençons</string>
+    <string name="rated">CLASSÉ</string>
+    <string name="browseby">Parcourir par</string>
+    <string name="callus">Appelez nous</string>
+    <string name="mailus">Envoyez nous un mail</string>
+    <string name="aboutvendor">À propos du fournisseur</string>
+    <string name="ourproducts">Nos produits</string>
+    <string name="time">#Temps</string>
+    <string name="clearwishlist">Effacer la liste de souhaits</string>
+    <string name="selectsomeprefixvalue">Sélectionnez d/abord une valeur de préfixe</string>
+    <string name="selectdob">Sélectionnez la date de naissance.</string>
+    <string name="selectsomesuffixvalue">Veuillez d/abord remplir une valeur de suffixe</string>
+    <string name="deliverydata"><![CDATA[We use a variety of carriers to deliver our orders. Royal Mail, Parcel Force and Plus Delivery. Delivery Returns /exchanges policy & cancellation rights If you are not happy with any item you have ordered, you must contact us by emailing info@hairtreat.co.uk or by phone +447921707560. UK returns on any full price and sale items returned to us in perfect condition and original packaging, within 14 days of receipt of order, and proof of purchase. We only refund postage paid if the product is faulty. Photographic evidence must be recorded and submitted to sales@hairtreat.co.uk Please return the item/s to us on the following address: 2 Portal Way, Suite 507, London W3 6RT and we will be able to process your refund once the item/s have been arrived. Items received that are not in perfect condition, or are not deemed faulty, will be returned to you, at your cost. Money will only be refunded once we have received the item. Returns Policy You can return items within 28 days for a refund or replacement. Items have to be unopened, unused and in the original packaging to the return address provided. Return cost will be at buyer’s expense therefore we will refund the purchase price less the postage. Our aim is to please all customers with our carefully selected products and problems rarely occur but if wish to return your purchased item/s, please contact us via info@hairtreat.co.uk stating your reason for return/refund and we will deal with it promptly and effectively. DAMAGED ITEMS All our products have been properly packed before dispatch. If you receive an item that have been damaged we will require photographic evidence which can be sent to our email info@hairtreat.co.uk therefore please do not dispose of the product as we will require this for a claim. A replacement product will then be sent. Alternatively, a full refund will be offered for the purchase price including postage or for minor damage we may be able to agree on a part replacement or partial refund. Please note that a refund can take up to 14 days to be processed back onto your card by your bank.]]></string>
+    <string name="privacydata">HAIR TREAT LTD (\"We\") are committed to protecting and respecting your privacy. This policy (together with our terms of use and any other documents referred to therein) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. For the purpose of the Data Protection Act 1998 (the Act), the data controller is HAIR TREAT LTD of 2 PORTAL WAY, SUITE 507, LONDON, W3 6RT. Information we may collect from you We may collect and process the following data about you: Information that you provide by filling in forms on our site www.hairtreat.co.uk . This includes information provided at the time of registering to use our site, subscribing to our service, posting material or requesting further services. We may also ask you for information [when you enter a competition or promotion sponsored by, and] when you report a problem with our site. If you contact us, we may keep a record of that correspondence. We may also ask you to complete surveys that we use for research purposes, although you do not have to respond to them. Details of transactions you carry out through our site and of the fulfilment of your orders. Details of your visits to our site including, but not limited to, traffic data, location data, weblogs and other communication data, whether this is required for our own billing purposes or otherwise and the resources that you access. IP addresses We may collect information about your computer, including where available your IP address, operating system and browser type, for system administration and to report aggregate information to our advertisers. This is statistical data about our users\' browsing actions and patterns, and does not identify any individual. Cookies Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site. For detailed information on the cookies we use and the purposes for which we use them see our Cookie policy Where we store your personal data The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (\"EEA\"). It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. Such staff maybe engaged in, among other things,  the fulfilment of your order, the processing of your payment details and the provision of support services. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy. All information you provide to us is stored on our secure servers. Any payment transactions will be encrypted [using SSL technology]. Where we have given you (or where you have chosen) a password which enables you to access certain parts of our site, you are responsible for keeping this password confidential. We ask you not to share a password with anyone. Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access. Uses made of the information We use information held about you in the following ways: To ensure that content from our site is presented in the most effective manner for you and for your computer. To provide you with information, products or services that you request from us or which we feel may interest you, where you have consented to be contacted for such purposes. To carry out our obligations arising from any contracts entered into between you and us. To allow you to participate in interactive features of our service, when you choose to do so. To notify you about changes to our service. We may also use your data, or permit selected third parties to use your data, to provide you with information about goods and services which may be of interest to you and we or they may contact you about these by post or telephone. If you are an existing customer, we will only contact you by electronic means (e-mail or SMS) with information about goods and services similar to those which were the subject of a previous sale to you. If you are a new customer, and where we permit selected third parties to use your data, we (or they) will contact you by electronic means only if you have consented to this. If you do not want us to use your data in this way, or to pass your details on to third parties for marketing purposes, please tick the relevant box situated on the form on which we collect your data. We do not disclose information about identifiable individuals to our advertisers, but we may provide them with aggregate information about our users (for example, we may inform them that 500 men aged under 30 have clicked on their advertisement on any given day). We may also use such aggregate information to help advertisers reach the kind of audience they want to target (for example, women in SW1). We may make use of the personal data we have collected from you to enable us to comply with our advertisers\' wishes by displaying their advertisement to that target audience. Disclosure of your information We may disclose your personal information to any member of our group, which means our subsidiaries, our ultimate holding company and its subsidiaries, as defined in section 1159 of the UK Companies Act 2006. We may disclose your personal information to third parties: In the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets. If HAIR TREAT LTD or substantially all of its assets are acquired by a third party, in which case personal data held by it about its customers will be one of the transferred assets. If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our terms of use or terms and conditions of supply and other agreements; or to protect the rights, property, or safety of HAIR TREAT LTD, our customers, or others. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction. Your rights You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data.  You can also exercise the right at any time by contacting us at info@hairtreat.co.uk. Our site may, from time to time, contain links to and from the websites of our partner networks, advertisers and affiliates.  If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies.  Please check these policies before you submit any personal data to these websites. Access to information The Act gives you the right to access information held about you. Your right of access can be exercised in accordance with the Act. Any access request may be subject to a fee of £10 to meet our costs in providing you with details of the information we hold about you. Changes to our privacy policy Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. Contact Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to 2 PORTAL WAY, SUITE 507, LONDON, W3 6RT.</string>
+    <string name="relatedproducts">Produits connexes</string>
+    <string name="upsellproducts">Upsell Products</string>
+    <string name="crosssellproducts">Cross Sell Products</string>
+    <string name="additional_info">Information additionnelle</string>
+    <string name="signin_drawer">S/identifier</string>
+    <string name="drawertext">Enregistrer, magasiner et afficher les commandes</string>
+    <string name="account">Votre compte</string>
+    <string name="image">image</string>
+    <string name="home">D\'accueil</string>
+    <string name="bag">Mon panier</string>
+    <string name="invite">Invite tes amis</string>
+    <string name="extras">MarketPlace</string>
+    <string name="copyright">Copyright</string>
+    <string name="noemailfound">No Email Found in this facebook account</string>
+    <string name="errorString">Un problème est survenu. Veuillez réessayer.</string>
+    <string name="middleName">Deuxième nom*</string>
+    <string name="OrderNum">Commander #</string>
+    <string name="details">Des détails</string>
+    <string name="description">Description</string>
+    <string name="appversion">Version de App </string>
+    <string name="totalreview">Revue totale: </string>
+    <string name="sunmitting">Soumission....</string>
+    <string name="noinforegardingaddress">Aucune information concernant l/adresse</string>
+
+    <string name="Setasdefaultforbilling">Définir comme adresse de facturation par défaut</string>
+    <string name="Setasdefaultforshipping">Définir comme adresse de livraison par défaut</string>
+    <string name="DefaultBilling">Facturation par défaut</string>
+    <string name="DefaultShipping">Expédition par défaut</string>
+    <string name="re_ordered">Recommandé</string>
+    <string name="reorder_product_s">Réorganiser le produit</string>
+    <string name="order_summary">Récapitulatif de la commande</string>
+    <string name="totalitems">"Article total : "</string>
+    <string name="Quantity_">Quantité :</string>
+    <string name="product_basic_info">Informations de base sur le produit</string>
+    <string name="OFF">"% Off "</string>
+    <string name="selectedspecification_notavailable">Le produit ayant une spécification sélectionnée n/est pas disponible.</string>
+    <string name="CompareList">Comparer les produits</string>
+    <string name="thisvedorhavenotprovidedanysupportnumber">Ce fournisseur n/a fourni aucun numéro de support
+</string>
+    <string name="thevendornotprovidedsupportmail">Ce fournisseur n/a fourni aucun e-mail d/assistance</string>
+    <string name="compare_your_products">Comparez vos produits:</string>
+    <string name="my_notifications">Mes notifications</string>
+    <string name="nosubcategory_toexplore">Les options de sous catégories ne sont pas disponibles pour l/exploration.</string>
+    <string name="enter_quantity">Entrez la quantité</string>
+    <string name="search">Search</string>
+    <string name="ordersummary">Order Summary</string>
+    <string name="sortoptionsnotavailable">Sort Options aren\'t available for now.</string>
+    <string name="filternotavailblefornow">Filters not available for now.</string>
+    <string name="total_">Total:</string>Chercher
+    <string name="stillnotconnected">Toujours pas connecté au réseau.</string>
+    <string name="set_place">Définir l/emplacement</string>
+    <string name="change">Changement</string>
+
+
+    <string name="shopdropicon"> shopdropIcon </string>
+    <string name="signupwithnumber"> Inscription avec numéro de téléphone </string>
+    <string name="loginwithnumber"> Connexion avec un mobile </string>
+    <string name="loginwithemail"> Connexion par e-mail </string>
+    <string name="enterNumber"> Entrez votre numéro de téléphone !! </string>
+    <string name="invalidMobileNumber"> Numéro de mobile non valide </string>
+
+    <string name="verifyOtp"> Vérifier OTP </string>
+    <string name="regenerateOtp"> Re-générer OTP </string>
+
+    <string name="invalidOTP"> OTP non valide </string>
+    <string name="pleaseEnterEmail"> Veuillez saisir votre adresse e-mail. </string>
+    <string name="pleaseEnterValidEmail"> Veuillez saisir une adresse e-mail valide </string>
+    <string name="pleaseEnterPassword"> Veuillez saisir le mot de passe </string>
+    <string name="reset"> Réinitialiser </string>
+
+    <string name="commentNote"> "Note: Note de livraison Si vous voulez noter quelque chose d'important." </string>
+    <string name="selectMethod"> - Sélectionnez-- </string>
+
+    <string name="comment"> Commentaire: </string>
+    <string name="ok"> Ok </string>
+    <string name="pleaseSelectDate"> Veuillez sélectionner la date </string>
+
+    <string name="pleaseAddComment"> Veuillez ajouter votre commentaire </string>
+    <string name="noPaymentMtdAvailable"> Aucun mode de paiement disponible. </string>
+    <string name="noQuotesAvailable"> Aucun devis disponible. </string>
+    <string name="topicon"> topIcon </string>
+    <string name="payWithStripe"> Payer avec Stripe </string>
+    <string name="email_phone"> Adresse e-mail / numéro de téléphone </string>
+    <string name="mylanguages"> Mes langues </string>
+    <string name="sellerShopNotFound"> ​​Désolé, boutique du vendeur introuvable. </string>
+    <string name="vendorBanner"> Bannière du fournisseur </string>
+    <string name="Categories"> <u> Catégories </u> </string>
+    <string name="categoriesNotFound"> ​​Catégories introuvables. </string>
+    <string name="namee"> <b> Nom </b> </string>
+    <string name="mobileNumber"> <b> Numéro de mobile </b> </string>
+    <string name="address"> <b> Adresse </b> </string>
+    <string name="cart"> Panier </string>
+    <string name="acc"> Compte </string>
+    <string name="pleaseEnterTheOtp">Entrez l\'OTP envoyé à %1$s</string>
+    <string name="pleaseEnterTheOTP">Entrez l\'OTP</string>
+    <string name="timePickingShow">Remarque: la sélection de l\'heure indique l\'heure approximative de livraison et non l\'heure exacte.</string>
+    <string name="pleaseSelectTime">Veuillez sélectionner l\'heure.</string>
+    <string name="selectDeliveryTimeFirst">Sélectionnez d\'abord l\'heure de livraison.</string>
+    <string name="selectDeliveryDateFirst">Sélectionnez d\'abord la date de livraison</string>
+    <string name="pleaseSelectAnyMethod">Veuillez d\'abord sélectionner un mode de paiement</string>
+
+
+</resources>
